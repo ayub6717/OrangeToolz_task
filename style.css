@@ -1,0 +1,87 @@
+/*========================= Side nav css start=========== */
+.row {
+  margin-bottom: 0;
+}
+
+.btn-flat:hover {
+  background-color: transparent;
+}
+
+header, main, footer, nav {
+  padding-left: 300px;
+}
+
+nav:nth-child(2) {
+  padding-left: 0px;
+}
+
+@media only screen and (max-width: 992px) {
+  header, main, footer, nav {
+    padding-left: 0;
+  }
+}
+nav {
+  background-color: #21668a;
+}
+nav i {
+  float: left;
+  margin-right: 8px;
+}
+nav#nav-search {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+nav#nav-search .input-field label i {
+  color: #fff;
+}
+nav#nav-search .input-field input[type=search]:focus:not(.browser-default) + label i {
+  color: #2b85b3;
+}
+
+/* body {
+  background-color: #e4f2f9;
+} */
+
+.sidenav .material-icons {
+  font-size: 24px;
+  color: white !important;
+  margin-right: 15px !important;
+}
+.sidenav .first-li {
+  line-height: 56px;
+  max-height: 56px;
+  min-height: 56px;
+  padding: 0 32px;
+  background-color: #21668a;
+}
+
+.sidenav .first-li span {
+  box-sizing: border-box;
+  color: white;
+  display: inline;
+  font-family: roboto;
+  font-size: 29.4px;
+  font-weight: 400;
+  height: auto;
+  line-height: 56px;
+  -webkit-text-size-adjust: 100%;
+     -moz-text-size-adjust: 100%;
+          text-size-adjust: 100%;
+  width: auto;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.sidenav li>a{
+    color: white;
+    margin-right: 10px;
+}
+
+#slide-out{
+    width: 258px;
+    height: 1024px !important;
+    background-color: #133159;
+}
+
+
+/*========================= Side nav css start end=========== */
+
+
