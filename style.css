@@ -183,20 +183,19 @@ select.browser-default {
 /*================ Deal category start=========== */
 
 .bot {
-  height: 500px;
-  height: 500px;
+  height: 209px;
   background-color: #F3F5F7;
 }
 
 .bot_two {
   background-color: #F3F5F7;
-  height: 500px;
+  height: 1233px;
   padding: 20px;
 }
 
 .bot_three {
   background-color: white;
-  height: 500px;
+  height: 1123px;
   border-radius: 10px;
   padding: 10px;
 }
@@ -263,16 +262,112 @@ select.browser-defaultTwo {
 
 .bot_four {
   background-color: #F3F5F7;
-  height: 500px;
+  /* width: 1000px; */
+  /* height: 867px; */
   border-radius: 10px;
   padding: 10px;
-  width: 1600px;
-  overflow-x: scroll;
-  overflow-y: hidden;
-  white-space: nowrap
+  overflow: auto;
+  /* overflow-y: hidden;
+  margin: 0 auto;
+  white-space: nowrap */
 }
 
-.bot_child {
-  height: 500px;
 
+
+#scrolly {
+  width: 1000px;
+  height: 190px;
+  overflow: auto;
+  overflow-y: hidden;
+  margin: 0 auto;
+  white-space: nowrap;
+}
+
+#scrollyTwo {
+  width: 22%;
+  height: 622px;
+  overflow: auto;
+  overflow-x: hidden;
+  white-space: nowrap;
+  border: 1px solid gray;
+  margin: 10px;
+
+
+}
+
+
+.scrollChild {
+  background-color: white;
+  height: 143px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+
+}
+
+
+.scrollText {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+}
+
+.scrollSpan {
+  color: #3C7EF3;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.scrollChild p {
+  color: #8896A8;
+  line-height: 22px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+
+}
+
+.IconImage {
+  width: 19px;
+}
+
+.IconImageTwo {
+  width: 20px;
+  margin-left: 15px;
+}
+
+
+#container {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  height: 680px;
+}
+
+#objects {
+  width: auto;
+  white-space: nowrap;
+  background-color: #F3F5F7;
+  height: 400px;
+}
+
+.object {
+  display: inline-block;
+  border: 1px solid white;
+  width: 230px;
+  padding: 10px;
+  height: 622px;
+  overflow: auto;
+  overflow-x: hidden;
+  white-space: nowrap;
+  border: 1px solid #dee0e6;
+  margin: 10px;
+  border-radius: 10px;
 }
