@@ -363,6 +363,27 @@ select.browser-defaultTwo {
   height: 680px;
 }
 
+
+#container::-webkit-scrollbar {
+  width: 8px;  /* width of the entire scrollbar */
+}
+
+#container::-webkit-scrollbar-track {
+  background: #eaeff1;        /* color of the tracking area */
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#container::-webkit-scrollbar-thumb {
+  background-color: #133159;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+}
+
+#container::-webkit-scrollbar-button {
+  width: 0px; 
+  height: 230px; 
+}
+
 #objects {
   width: auto;
   white-space: nowrap;
@@ -387,12 +408,13 @@ select.browser-defaultTwo {
 }
 
 .object::-webkit-scrollbar {
-  width: 8px;  
-  height: 10px !important;             /* width of the entire scrollbar */
+  width: 8px;  /* width of the entire scrollbar */
 }
 
 .object::-webkit-scrollbar-track {
   background: #eaeff1;        /* color of the tracking area */
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .object::-webkit-scrollbar-thumb {
@@ -400,6 +422,10 @@ select.browser-defaultTwo {
   border-radius: 20px;       /* roundness of the scroll thumb */
 }
 
+.object::-webkit-scrollbar-button {
+  width: 0px; 
+  height: 230px; 
+}
 html {
   --scrollbarBG: #CFD8DC;
   --thumbBG: #133159;
@@ -423,28 +449,23 @@ body::-webkit-scrollbar-thumb {
 
 
 .img_add {
-  position: absolute;
-  margin: auto;
-  top: 50%;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  
+  margin-left: 80px;
+
 }
 
 .child {
   background: white;
   width: 70px;
   height: 70px;
-  position: absolute;
-  top: 120%;
-  left: 50%;
-  margin: -35px 0 0 -35px;
+  margin-top: 13  qa0%;
 }
 
 .child p {
   text-align: center;
   color: gray;
-  margin-left: -26px;
+  margin-top: -16px;
+  margin-left: 30px;
 }
 
 .category_items {
@@ -514,4 +535,18 @@ input#appt {
 .bot_child{
   padding-left: 40px;
   padding-right:40px ;
+}
+
+
+
+@media only screen and (max-width: 1100px) {
+
+  .sidenav {
+    width: 158px !important;
+}
+
+.sidenav .material-icons {
+  font-size: 24px;
+  color: white !important;
+}
 }
