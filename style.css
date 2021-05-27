@@ -1,3 +1,5 @@
+/* -- Navbar start -- */
+
 .row {
   margin-bottom: 0;
 }
@@ -104,6 +106,9 @@ body {
   width: 26px;
 }
 
+/* -- Navbar End -- */
+
+/* -- Head Nav start -- */
 .call {
   width: 40px;
   height: 40px;
@@ -186,14 +191,13 @@ select.browser-default {
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
-  /* padding: 10px; */
 }
 
+/* -- Head Nav End -- */
 
 
 
-/*================ Deal category start=========== */
-
+/* -- Deal category start -- */
 .bot {
   height: 209px;
   background-color: #F3F5F7;
@@ -255,7 +259,7 @@ nav,
 .catImg {
   width: 24px;
   margin-left: 14px;
-  
+
 }
 
 .liSpace {
@@ -276,14 +280,9 @@ select.browser-defaultTwo {
 
 .bot_four {
   background-color: #F3F5F7;
-  /* width: 1000px; */
-  /* height: 867px; */
   border-radius: 10px;
   padding: 10px;
   overflow: auto;
-  /* overflow-y: hidden;
-  margin: 0 auto;
-  white-space: nowrap */
 }
 
 
@@ -368,21 +367,17 @@ select.browser-defaultTwo {
 
 #container::-webkit-scrollbar {
   width: 8px;
-  /* width of the entire scrollbar */
 }
 
 #container::-webkit-scrollbar-track {
   background: #eaeff1;
-  /* color of the tracking area */
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
 #container::-webkit-scrollbar-thumb {
   background-color: #133159;
-  /* color of the scroll thumb */
   border-radius: 20px;
-  /* roundness of the scroll thumb */
 }
 
 #container::-webkit-scrollbar-button {
@@ -415,21 +410,17 @@ select.browser-defaultTwo {
 
 .object::-webkit-scrollbar {
   width: 8px;
-  /* width of the entire scrollbar */
 }
 
 .object::-webkit-scrollbar-track {
   background: #eaeff1;
-  /* color of the tracking area */
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
 .object::-webkit-scrollbar-thumb {
   background-color: #133159;
-  /* color of the scroll thumb */
   border-radius: 20px;
-  /* roundness of the scroll thumb */
 }
 
 .object::-webkit-scrollbar-button {
@@ -559,6 +550,11 @@ input#appt {
   margin-left: 20%;
 }
 
+/* -- Deal category End -- */
+
+
+
+/* -- Media Querystart -- */
 
 
 @media only screen and (max-width:1100px) {
@@ -580,7 +576,7 @@ input#appt {
     margin-left: 5% !important;
   }
 
-  .catImg{
+  .catImg {
     display: none;
   }
 
@@ -594,7 +590,7 @@ input#appt {
   .active {
     width: 50px;
     margin-left: 20px;
-}
+  }
 
 }
 
@@ -605,13 +601,15 @@ input#appt {
 }
 
 @media screen and (max-width:980px) {
+
   header,
   main,
   footer,
   nav {
     padding-left: 0px;
   }
-  .del{
+
+  .del {
     display: none;
   }
 }
@@ -626,16 +624,16 @@ input#appt {
     margin-left: auto;
     left: auto;
     right: auto;
-}
+  }
 
-input#appt {
-  width: 100% !important;
+  input#appt {
+    width: 100% !important;
 
-}
+  }
 
-.delFour{
-  display: none;
-}
+  .delFour {
+    display: none;
+  }
 
 
 }
@@ -648,23 +646,21 @@ input#appt {
 }
 
 @media screen and (max-width:378px) {
-  .delFive{
+  .delFive {
     width: 100%;
   }
-  
+
   .btn-small {
     height: 32.4px;
     line-height: 32.4px;
     font-size: 13px;
     width: 100%;
   }
-  .catImg{
+
+  .catImg {
     display: none;
   }
-  
+
 }
 
-
-
-
-input#icon_prefixTwo {}
+/* -- Media Querystart -- */
