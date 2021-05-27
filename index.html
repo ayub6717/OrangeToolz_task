@@ -4,20 +4,19 @@
 <head>
 	<meta charset="UTF-8">
 	<title>OrangeToolz_task</title>
-    <link rel="icon" href="images/logo.png" type="image/gif" sizes="16x16">
+	<link rel="icon" href="images/logo.png" type="image/gif" sizes="16x16">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css'>
 	<link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
 	<link rel="stylesheet" href="./style.css">
-
 </head>
 
 <body>
+	<!-- partial:index.partial.html -->
 	<nav class="hide-on-large-only">
 		<div class="nav-wrapper">
 			<div class="row">
 				<div class="col s12">
-
 					<a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 					<ul class="right hide-on-med-and-up">
 						<li><a href="#!"><i class="material-icons">search</i> <span
@@ -31,79 +30,212 @@
 
 	<main>
 
-		<section id="section1">
-			<div class="row">
-				<div class="col s12">This div is 12-columns wide on all screen sizes</div>
-				<div class="col s6 teal lighten-2">6-columns (one-half)</div>
-				<div class="col s6 teal lighten-5">6-columns (one-half)</div>
+		<div>
+			<nav>
+				<div class="nav-wrapper">
+
+					<ul class="right">
+						<li>
+							<form>
+								<div class="row">
+									<div class="input-field suffix col s6">
+										<input placeholder="Search" id="icon_prefix" type="text" class="validate">
+										<i class="material-icons">search</i>
+									</div>
+								</div>
+							</form>
+						</li>
+						<li>
+							<img class="call" src="images/call.png" alt="call.png">
+						</li>
+						<li>
+							<img class="call" src="images/add.png" alt="add.png">
+						</li>
+						<li>
+							<img class="call" src="images/notification.png" alt="notification.png">
+						</li>
+						<li>
+							<img class="call" src="images/ask.png" alt="ask.png">
+						</li>
+
+						<li style="margin-left: 20px; padding-right: 20px;">
+
+							<div class="grid-container">
+								<div class="grid-item">
+									<img class="call2" src="images/user.png" alt="user.png">
+								</div>
+								<div class="grid-item">
+									<p style="color: white; margin-right: -106px;">admin@gmail.com</p>
+
+								</div>
+							</div>
+						<li style="padding-right: 60px;">
+							<select class="browser-default" class="select">
+								<option value="" disabled selected>Admin</option>
+								<option value="1">Admin</option>
+								<option value="2">Vendor</option>
+								<option value="3">user</option>
+							</select>
+						</li>
+						</li>
+
+					</ul>
+				</div>
+			</nav>
+		</div>
+
+		<div class="bot_two">
+
+			<div class="bot_three">
+				<div>
+					<nav class="navTwo">
+						<div class="nav-wrapper">
+							<a class="pra">Deal</a>
+							<ul class="right">
+
+								<li class="liSpace">
+									<a href="#Dashboard">
+										<i class="material-icons"> <span class="iconmad">format_list_bulleted</span>
+										</i>
+										<i class="material-icons"> <span class="iconmadTwo">gradient</span>
+										</i>
+										<i class="material-icons"> <span class="iconmad"><img src="images/window.png"
+													alt="window.png"></span>
+										</i>
+										<i class="material-icons"> <span class="iconmad"><img src="images/charts.png"
+													alt="charts.png"></span>
+										</i>
+
+									</a>
+								</li>
+
+								<li class="liSpace">
+									<a class=" blue lighten-1 btn-small"><i class="material-icons left"><img
+												class="catImg" src="images/createlist.png"
+												alt="acreatelist.png"></i>Cretae List</a>
+								</li>
+								<li>
+									<a class="waves-effect blue lighten-1 btn-small"><i class="material-icons left"><img
+												class="catImg" src="images/settingss.png"
+												alt="settingss.png"></i>Settings</a>
+								</li>
+								<li>
+									<i class="material-icons"> <span><img class="catImg" src="images/eye.png"
+												alt="eye.png"></span>
+									</i>
+								</li>
+
+							</ul>
+						</div>
+					</nav>
+				</div>
+				<hr>
+
+
+
+				<div class="bot_four">
+					<div class="bot_child">
+						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, ad. At recusandae omnis
+							officiis aperiam repellendus illum eveniet blanditiis fugit, mollitia ea! Assumenda maxime
+							explicabo sunt quidem, corrupti quae corporis.</p>
+					</div>
+				</div>
+
 			</div>
-		</section>
+		</div>
+
+
+		<div class="row">
+			<div class="col s6 teal lighten-2">6-columns (one-half)</div>
+			<div class="col s6 teal lighten-5">6-columns (one-half)</div>
+		</div>
+
+
 
 
 
 	</main>
 
-
 	<!-- SIDEBAR -->
 	<ul id="slide-out" class="sidenav sidenav-fixed">
-		<li><a class="waves-effect" href="#">
-				<i class="material-icons">home</i>Dashboard</a>
-		</li>
-		<li><a class="waves-effect" href="#">
-				<i class="material-icons">question_answer</i>Inbox</a>
-		</li>
-		<li>
-			<a class="waves-effect" href="#">
-				<i class="material-icons">monetization_on</i>Deals</a>
-		</li>
-		<li>
-			<a class="waves-effect" href="#">
-				<i class="material-icons">assignment</i>Calender</a>
-		</li>
-		<li>
-			<a class="waves-effect" href="#">
-				<i class="material-icons">people</i>Contacts</a>
-		</li>
-        <li>
-			<a class="waves-effect" href="#">
-				<i class="material-icons"><img style="width: 24px;" src="images/marketing.png" alt="marketing"></i>Marketing</a>
-		</li>
 
-        <li>
-			<a class="waves-effect" href="#">
-				<i class="material-icons"><img style="width: 22.51px;" src="images/location.png" alt="location.png"></i>Find New Leads</a>
-		</li>
 
-        <li>
-			<a class="waves-effect" href="#">
-				<i class="material-icons">flash_on</i>Triggers</a>
-		</li>
+		<div class="side"> <br>
+			<li><a>
+					<i class="material-icons icons-pad"> <img class="nav-img" src="images/navlogo.png"
+							alt="navlogo"></i> Pypepro</a>
+			</li>
 
-        <li>
-			<a class="waves-effect" href="#">
-				<i class="material-icons"><img style="width: 24px;" src="images/reporting.png" alt="reporting.png"></i>Reporting</a>
-		</li>
+			<li><a href="#Dashboard">
+					<i class="material-icons">home</i>Dashboard</a>
+			</li>
+			<li><a href="#Inbox">
+					<i class="material-icons">question_answer</i>Inbox</a>
+			</li>
+			<li class="active">
+				<a href="#Deals" style="margin-left: -20px;">
+					<i class="material-icons">monetization_on</i>Deals</a>
+			</li>
+			<li>
+				<a href="#Calender">
+					<i class="material-icons">assignment</i>Calender</a>
+			</li>
+			<li>
+				<a href="#Contacts">
+					<i class="material-icons">people</i>Contacts</a>
+			</li>
+			<li>
+				<a href="#Marketing">
+					<i class="material-icons"><img class="Marketing" src="images/marketing.png"
+							alt="marketing"></i>Marketing</a>
+			</li>
 
-        <li>
-			<a class="waves-effect" href="#">
-				<i class="material-icons">settings</i>Settings</a>
-		</li>
+			<li>
+				<a href="#Find_New_Leads">
+					<i class="material-icons"><img class="find" src="images/location.png" alt="location.png"></i>Find
+					New Leads</a>
+			</li>
 
-        <li>
-			<a class="waves-effect" href="#">
-				<i class="material-icons">play_circle_filled</i>Training</a>
-		</li>
+			<li>
+				<a href="#Triggers">
+					<i class="material-icons">flash_on</i>Triggers</a>
+			</li>
 
-        <li>
-			<a class="waves-effect" href="#">
-				<i class="material-icons">person</i>Accounts</a>
-		</li>
+			<li>
+				<a href="#Reporting">
+					<i class="material-icons"><img class="reporting" src="images/reporting.png"
+							alt="reporting.png"></i>Reporting</a>
+			</li>
+
+			<li>
+				<a href="#settings">
+					<i class="material-icons">settings</i>Settings</a>
+			</li>
+
+			<li>
+				<a href="#Training">
+					<i class="material-icons">play_circle_filled</i>Training</a>
+			</li>
+
+			<li>
+				<a href="#Accounts">
+					<i class="material-icons">person</i>Accounts</a>
+			</li>
+
+			<li>
+				<a href="#">
+					<i class="material-icons"><img class="path" src="images/path.png" alt="path.png"></i></a>
+			</li>
+		</div>
+		<div class="bot">
+
+		</div>
 
 	</ul>
 
 
 
-	<!-- Script file -->
+	<!-- partial -->
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js'></script>
 	<script src="./script.js"></script>
