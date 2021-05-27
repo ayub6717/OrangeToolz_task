@@ -458,7 +458,7 @@ body::-webkit-scrollbar-thumb {
   background: white;
   width: 70px;
   height: 70px;
-  margin-top: 13  qa0%;
+  margin-top: 130%;
 }
 
 .child p {
@@ -537,6 +537,10 @@ input#appt {
   padding-right:40px ;
 }
 
+.navFloat{
+  float: right;
+}
+
 
 
 @media only screen and (max-width: 1100px) {
@@ -545,8 +549,23 @@ input#appt {
     width: 158px !important;
 }
 
-.sidenav .material-icons {
-  font-size: 24px;
-  color: white !important;
+.d {
+ display: none;
 }
+
+#icon_prefix {
+
+  margin-right: 300px;
 }
+
+
+/* 
+.navFloat{
+  margin-right: -100px !important;
+} */
+
+/* header, main, footer, nav {
+  padding-left: 158px;
+} */
+}
+
